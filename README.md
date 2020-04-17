@@ -4,10 +4,25 @@
 
 __Автор:__ Мурат Апишев ([facebook](https://www.facebook.com/great.mel), [machinelearning.ru](http://www.machinelearning.ru/wiki/index.php?title=Участник:Mapishev))
 
+__Правила курса__:
 
-<h2>Неделя 1: Введение в язык программирования Python</h2>
+- Курс проводится в формате "лекции + практические задания"
+- Зачёт по курсу выставляется по результатам выполнения заданий
+- Для доступа к зачёту необходимо выполнить __все__ практические задания и получить за них в сумме __не менее 35 баллов__. Форма самого зачёта будет определена в дальнейшем, для гарантированного получения зачёта автоматом нужно набрать в сумме __не менее 45 баллов__.
 
-<h4>Содержание занятия:</h4>
+<h4>Формулировки практических заданий:</h4>
+
+- [Задание 1](https://github.com/MelLain/mipt-python/blob/master/tasks/mipt-python-task-intro.ipynb)
+- [Задание 2](https://github.com/MelLain/mipt-python/blob/master/tasks/mipt-python-task-oop.ipynb)
+- [Задание 3](https://github.com/MelLain/mipt-python/blob/master/tasks/mipt-python-task-ml.ipynb)
+
+<h4>Результаты выполнения практических заданий:</h4>
+
+- [Ссылка на таблицу](https://docs.google.com/spreadsheets/d/1xnf1n7dusbb_k_USNXhCHTvQxmhcNIgyX6LaluCg2ek/edit?usp=sharing)
+
+<h2>Тема 1: Введение в язык программирования Python</h2>
+
+<h4>Содержание:</h4>
 
 - мотивация изучения языка
 - язык Python, история, особенности, сравнение с другими языками
@@ -26,14 +41,14 @@ __Автор:__ Мурат Апишев ([facebook](https://www.facebook.com/gre
 - импорт модулей
 - функции exec и eval
 
-<h4>Ссылки на лекцию:</h4>
+<h4>Ссылки на материалы:</h4>
 
-- [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mel-lain-mipt-python-intro.pdf)
-- [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mel-lain-mipt-python-intro.ipynb)
+- [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mipt-python-intro.pdf)
+- [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mipt-python-intro.ipynb)
 
-<h2>Неделя 2: Модель памяти, операции над встроенными типами данных</h2>
+<h2>Тема 2: Модель памяти, операции над встроенными типами данных</h2>
 
-<h4>Содержание занятия:</h4>
+<h4>Содержание:</h4>
 
 - стадии жизни объекта
 - сборщик мусора, циклические и слабые ссылки, гарантии
@@ -49,14 +64,14 @@ __Автор:__ Мурат Апишев ([facebook](https://www.facebook.com/gre
 - регулярные выражения, модули re и regex
 - подробнее о файлах, модуль os.path
 
-<h4>Ссылки на лекцию:</h4>
+<h4>Ссылки на материалы:</h4>
 
-- [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mel-lain-mipt-python-types.pdf)
-- [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mel-lain-mipt-python-types.ipynb)
+- [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mipt-python-types.pdf)
+- [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mipt-python-types.ipynb)
 
-<h2>Неделя 3: Пользовательские и встроенные функции, итераторы и генераторы</h2>
+<h2>Тема 3: Пользовательские и встроенные функции, итераторы и генераторы</h2>
 
-<h4>Содержание занятия: </h4>
+<h4>Содержание: </h4>
 
 - функции range, zip, enumerate
 - базовый синтаксис функций, возвращаемое значение, рекурсия
@@ -70,20 +85,20 @@ __Автор:__ Мурат Апишев ([facebook](https://www.facebook.com/gre
 - генераторные функции, оператор yield
 - модуль itertools
 
-<h4>Ссылки на лекцию:</h4>
+<h4>Ссылки на материалы:</h4>
 
-- [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mel-lain-mipt-python-functions.pdf)
-- [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mel-lain-mipt-python-functions.ipynb)
+- [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mipt-python-functions.pdf)
+- [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mipt-python-functions.ipynb)
 
-<h2>Неделя 4: Основы ООП, особенности ООП в Python</h2>
+<h2>Тема 4: Основы ООП, особенности ООП в Python</h2>
 
-<h4>Содержание занятия: </h4>
+<h4>Содержание: </h4>
 
 - парадигма объектно-ориентированного программирования
 - понятия класса, объекта класса
 - понятия интерфейса и абстрактного класса
 - особенности реализации принципов ООП в Python
-- методы __init__ и __new__, параметр self
+- методы \_\_init\_\_ и \_\_new\_\_, параметр self
 - методы и атрибуты, функции для работы с атрибутами
 - магические методы классов, их перегрузка, менеджеры контекста
 - наследование
@@ -92,10 +107,95 @@ __Автор:__ Мурат Апишев ([facebook](https://www.facebook.com/gre
 - сохранение объектов классов, модуль pickle
 - исключения, обработка исключений
 
-<h4>Ссылки на лекцию:</h4>
+<h4>Ссылки на материалы:</h4>
 
-- [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mel-lain-mipt-python-classes.pdf)
-- [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mel-lain-mipt-python-classes.ipynb)
+- [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mipt-python-classes.pdf)
+- [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mipt-python-classes.ipynb)
 
-<h2>Неделя 5: ToDo</h2>
+<h2>Тема 5: Продвинутое использование ООП, проектирование кода</h2>
 
+<h4>Содержание: </h4>
+
+- проектирование кода
+- виды отношений между классами
+- принципы SOLID
+- пример применения принципов для улучшения кода
+- множественное наследование, порядок распознавания методов
+- вызов родительских методов, функция super
+- статические методы классов
+- понятие шаблона проектирования
+- шаблон singleton
+- шаблон mixin
+- шаблоны фасад, адаптер, DAO
+- понятие фабрики, шаблон простая фабрика
+- шаблоны фабричный метод и абстрактная фабрика
+- шаблон декоратор
+- декораторы функций и классов в Python
+- метаклассы в Python
+
+<h4>Ссылки на материалы:</h4>
+
+- [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mipt-python-design.pdf)
+- [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mipt-python-design.ipynb)
+
+<h2>Тема 6: Представление, обработка, анализ и визуализация данных</h2>
+
+<h4>Содержание: </h4>
+
+- представление плотных матриц в Python, базовые операции
+- библиотека numpy, описание
+- методы создания массива numpy.ndarray
+- классы ndarray и matrix
+- изменение размерности массивов
+- индексирование массовов
+- арфметические операции над массивами, broadcasting
+- матричные операции над массивами, сравнение с наивной реализацией
+- агрегирующие функции
+- конкатенация массивов
+- примеры дополнительных полезные функции numpy
+- примеры постановок и решений задач на векторные и матричные операции
+- DataFrame в библиотеке pandas
+- доступ к элементам, индесирование
+- pandas.DataSeries, операции над столбцами, выборка по условию
+- создание и редактирование DataFrame, итерирование, конкатенация
+- примеры полезных атрибутов и функций DataFrame
+- базовая визуализация на основе DataFrame
+- библиотека matplotlib
+- простейшие графики в matplotlib, форматирование
+- диаграммы scatter для отображения двумерной выборки
+
+<h4>Ссылки на материалы:</h4>
+
+- [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mipt-python-data.pdf)
+- [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mipt-python-data.ipynb)
+
+<h2>Тема 7: Введение в инструменты для оптимизации и машинного обучения</h2>
+
+<h4>Содержание: </h4>
+
+- введение в модуль scipy.linalg
+- введение в модуль scipy.optimize
+- введение в модуль scipy.stats
+- понятие статистического теста, T-критерий
+- разреженные матрицы в scipy.sparse
+- напоминание основных базовых идей ML, библиотека sklearn
+- напоминание: линейные модели, метрика качества классификации
+- линейные модели в sklearn, выбор модели
+- кроссвалидация, подбор параметров по сетке, подсчёт метрик
+- лог-регрессия, линейный SVM, Kernel SVM в sklearn
+- особенности данных для линейных моделей
+- напоминание: метрические модели (knn, k-means)
+- проблемы k-means, частичное обучение в sklearn
+- напоминание: решающие деревья
+- виды композиций в sklearn
+- Random Forest в sklearn, основные параметры RF
+- out-of-bag score для RF, оценка важности признаков
+- градиентный бустинг в sklearn, основные параметры
+- библиотека xgboost для градиентного бустинга, важные параметры
+- библиотека catboost для градиентного бустинга
+- задача понижения размерности, SVD разложение в sklearn
+
+<h4>Ссылки на материалы:</h4>
+
+- [PDF](https://github.com/MelLain/mipt-python/blob/master/lectures/pdf/mipt-python-ml.pdf)
+- [Jupyter Notebook](https://github.com/MelLain/mipt-python/blob/master/lectures/src/mipt-python-ml.ipynb)
