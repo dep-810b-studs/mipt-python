@@ -3,3 +3,6 @@
 #*
 /tmp/*
 *.ipynb_checkpoints*
+*.idea/
+*.dat
+*.txt
